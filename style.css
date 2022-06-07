@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-color: var(--White);
+    width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+main {
+    margin: 0 auto;
+    height: 780px;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position-x: 200px, 240px;
+    background-position-y: -220px, 200px;
+}
+
+/* Section 1 */
+
+.section-one {
+    padding-left: 170px; 
+    padding-right: 170px;
+    padding-top: 100px;
+    width: 1440px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    
+}
+
+.content h1 {
+    font-size: 40px;
+    color: var(--Dark-Magenta);
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 45%;
+}
+
+.content p {
+    color: var(--Dark-Magenta);
+    line-height: 1.5;
+    font-weight: 500;
+    width: 60%;
+}
+
+.rating-one,
+.rating-two,
+.rating-three {
+    background-color: var(--Light-Grayish-Magenta);
+    display: flex;
+    margin: 20px 0;
+    justify-content: flex-start;
+    border-radius: 10px;
+    color: var(--Dark-Magenta);
+    font-weight: bold;
+    padding: 15px 0;
+    width: 420px;
+    
+    
+}
+
+
+.rating-two {
+    margin-left: 40px;
+}
+
+.rating-three {
+    margin-left: 80px;
+}
+
+.rating {
+    width: 55%;
+}
+
+.rating .images {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Section 2 */
+
+
+
+.section-two {
+    padding-bottom: 300px;
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.card {
+    background-color: var(--Dark-Magenta);
+    padding: 35px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card div p {
+    color: var(--Soft-pink);
+}
+.card div h3 {
+    color: var(--Light-Grayish-Magenta);
+    padding-bottom: 3px;
+}
+
+.card header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.card .quote {
+    color: var(--Light-Grayish-Magenta);
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.card-two {
+    margin-top: 20px;
+}
+.card-three {
+    margin-top: 40px;
+}
